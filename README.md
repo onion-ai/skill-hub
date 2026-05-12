@@ -62,7 +62,14 @@ onion skill run translate -p lang=英文 -i "Hello World"
 # 2. 添加技能文件
 cp my-skill.yaml skills/<category>/
 # 3. 校验格式
-python scripts/validate.py
+# 只校验 SKILL.md 格式（Anthropic 官方技能目录）
+python scripts/validate.py skills/anthropic/ --md-only
+
+# 严格模式：行数超 500 也报错
+python scripts/validate.py --strict --md-only
+
+# 校验单个 SKILL.md
+python scripts/validate.py skills/anthropic/skill-creator/SKILL.md
 # 4. 提交 PR
 ```
 
