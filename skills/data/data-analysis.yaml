@@ -1,0 +1,30 @@
+name: data-analysis
+description: 对数据或数据描述进行分析，提取洞察和行动建议
+version: "1.0.0"
+author: onion-ai
+tags: [数据, 分析, data]
+category: data
+params:
+  - name: input
+    description: 数据内容（CSV/表格/数字描述）
+    required: true
+    default: ""
+  - name: goal
+    description: 分析目标
+    required: false
+    default: "发现关键趋势和异常"
+  - name: output_format
+    description: 输出格式（报告/要点/表格）
+    required: false
+    default: "报告"
+template: |
+  请对以下数据进行分析，目标是{goal}，以{output_format}形式输出结果。
+
+  ## 数据
+  {input}
+
+  ## 分析要求
+  1. **描述性统计** —— 关键指标的分布和趋势
+  2. **关键发现** —— 最重要的 3-5 个洞察
+  3. **异常识别** —— 异常值或值得关注的数据点
+  4. **行动建议** —— 基于数据的具体建议

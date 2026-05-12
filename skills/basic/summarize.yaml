@@ -1,0 +1,28 @@
+name: summarize
+description: 对文本进行摘要总结，提炼核心要点
+version: "1.0.0"
+author: onion-ai
+tags: [文本, 摘要, basic]
+category: basic
+params:
+  - name: input
+    description: 待摘要文本
+    required: true
+    default: ""
+  - name: style
+    description: 摘要风格（简洁/详细/要点列表）
+    required: false
+    default: "简洁"
+  - name: max_words
+    description: 最大字数
+    required: false
+    default: "200"
+template: |
+  请对以下文本进行{style}摘要，控制在{max_words}字以内，提炼核心要点：
+
+  {input}
+examples:
+  - params:
+      input: "（长文章内容）"
+      style: "要点列表"
+      max_words: "150"

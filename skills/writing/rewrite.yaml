@@ -1,0 +1,25 @@
+name: rewrite
+description: 改写文章，换角度或换风格，保持核心信息不变
+version: "1.0.0"
+author: onion-ai
+tags: [写作, 改写, writing]
+category: writing
+params:
+  - name: input
+    description: 原文内容
+    required: true
+    default: ""
+  - name: angle
+    description: 改写角度（更简洁/更正式/更生动/换视角）
+    required: false
+    default: "更简洁"
+  - name: audience
+    description: 目标读者
+    required: false
+    default: "普通读者"
+template: |
+  请将以下文章改写得{angle}，面向{audience}，保持核心信息和观点不变：
+
+  {input}
+
+  改写后直接输出结果。

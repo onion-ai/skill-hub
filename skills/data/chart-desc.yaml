@@ -1,0 +1,30 @@
+name: chart-desc
+description: 根据数据生成图表描述文字，适用于报告和演示
+version: "1.0.0"
+author: onion-ai
+tags: [数据, 图表, data]
+category: data
+params:
+  - name: input
+    description: 图表数据或数据描述
+    required: true
+    default: ""
+  - name: chart_type
+    description: 图表类型（折线图/柱状图/饼图/散点图）
+    required: false
+    default: "折线图"
+  - name: audience
+    description: 受众（管理层/技术团队/普通用户）
+    required: false
+    default: "管理层"
+template: |
+  请根据以下数据，为一张{chart_type}撰写面向{audience}的图表描述文字。
+
+  数据：
+  {input}
+
+  要求：
+  - 1-2 句话概括图表核心结论
+  - 指出最重要的趋势或对比
+  - 语言简洁，适合{audience}阅读
+  - 如有异常数据点，特别说明

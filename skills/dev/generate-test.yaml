@@ -1,0 +1,31 @@
+name: generate-test
+description: 为代码生成完整的单元测试，覆盖边界情况
+version: "1.0.0"
+author: onion-ai
+tags: [代码, 测试, dev]
+category: dev
+params:
+  - name: input 
+    description: 待测试的代码（函数/类） 
+    required: true 
+    default: ""
+  - name: lang 
+    description: 编程语言 
+    required: false 
+    default: "Python"
+  - name: framework 
+    description: 测试框架（pytest/unittest/jest/go test） 
+    required: false
+    default: "pytest" 
+template: | 
+  请为以下{lang}代码使用{framework}框架生成完整的单元测试。
+  
+  测试要求：
+    - 正常输入的功能测试
+    - 边界条件测试（空值、极值、特殊字符等）
+    - 异常情况测试（错误输入、异常抛出等）
+    - 每个测试用例有清晰的命名和注释
+  
+  {input}
+  
+  请直接输出可运行的完整测试代码。

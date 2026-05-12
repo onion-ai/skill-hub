@@ -1,0 +1,32 @@
+name: sql-gen
+description: 根据自然语言需求生成高效的 SQL 查询语句
+version: "1.0.0"
+author: onion-ai
+tags: [数据库, SQL, dev]
+category: dev
+params:
+  - name: input 
+    description: 查询需求描述（自然语言） 
+    required: true 
+    default: ""
+  - name: schema 
+    description: 数据库表结构（DDL 或描述） 
+    required: false 
+    default: "（未提供）"
+  - name: dialect 
+    description: SQL 方言（MySQL/PostgreSQL/SQLite/BigQuery） 
+    required: false 
+    default: "MySQL" 
+template: | 
+  请根据以下需求生成{dialect} SQL 查询语句。
+
+  表结构: {schema}
+
+  查询需求: {input}
+
+  要求：
+
+    - SQL 语句正确且高效
+    - 添加必要的注释说明
+    - 如有性能优化建议（索引等），请一并说明
+    - 如需求不明确，列出假设条件 

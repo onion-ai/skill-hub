@@ -1,0 +1,33 @@
+name: commit-msg
+description: 根据 git diff 自动生成规范的 commit message
+version: "1.0.0"
+author: onion-ai
+tags: [代码, git, dev]
+category: dev
+params:
+  - name: input 
+    description: git diff 内容 
+    required: true 
+    default: ""
+  - name: style 
+    description: 提交规范（Conventional Commits/Angular/自由风格） 
+    required: false 
+    default: "Conventional Commits"
+  - name: lang 
+    description: commit message 语言 
+    required: false 
+    default: "英文" 
+template: | 
+  请根据以下 git diff 生成符合{style}规范的{lang} commit message。
+  要求：
+
+  subject 行不超过 72 字符
+  准确描述本次变更的内容和目的
+  如有必要，添加 body 说明细节
+  如有 Breaking Change，明确标注
+
+  {input}
+  
+  examples:
+
+  params: input: "（git diff 内容）" style: "Conventional Commits" lang: "英文"

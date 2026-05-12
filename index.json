@@ -1,0 +1,277 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-05-12T04:09:30Z",
+  "total": 15,
+  "skills": [
+    {
+      "name": "explain",
+      "description": "用通俗易懂的语言解释代码、概念或术语",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "教学",
+        "解释",
+        "basic",
+        "basic"
+      ],
+      "category": "basic",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:51:11Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/explain.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/explain.yaml"
+    },
+    {
+      "name": "polish",
+      "description": "润色和改进文本，使其更专业流畅",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "写作",
+        "润色",
+        "basic",
+        "basic"
+      ],
+      "category": "basic",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:51:27Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/polish.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/polish.yaml"
+    },
+    {
+      "name": "summarize",
+      "description": "对文本进行摘要总结，提炼核心要点",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "文本",
+        "摘要",
+        "basic",
+        "basic"
+      ],
+      "category": "basic",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:50:57Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/summarize.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/summarize.yaml"
+    },
+    {
+      "name": "translate",
+      "description": "将文本翻译为指定语言，保持原文风格",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "语言",
+        "翻译",
+        "basic",
+        "basic"
+      ],
+      "category": "basic",
+      "param_count": 2,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:43:21Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/translate.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/translate.yaml"
+    },
+    {
+      "name": "chart-desc",
+      "description": "根据数据生成图表描述文字，适用于报告和演示",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "数据",
+        "图表",
+        "data",
+        "data"
+      ],
+      "category": "data",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:58:45Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/chart-desc.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/chart-desc.yaml"
+    },
+    {
+      "name": "data-analysis",
+      "description": "对数据或数据描述进行分析，提取洞察和行动建议",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "数据",
+        "分析",
+        "data",
+        "data"
+      ],
+      "category": "data",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:58:29Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/data-analysis.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/data-analysis.yaml"
+    },
+    {
+      "name": "code-review",
+      "description": "代码审查，发现潜在问题并给出改进建议",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "代码",
+        "审查",
+        "dev",
+        "dev"
+      ],
+      "category": "dev",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:52:58Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/code-review.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/code-review.yaml"
+    },
+    {
+      "name": "commit-msg",
+      "description": "根据 git diff 自动生成规范的 commit message",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "代码",
+        "git",
+        "dev",
+        "dev"
+      ],
+      "category": "dev",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T04:07:50Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/commit-msg.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/commit-msg.yaml"
+    },
+    {
+      "name": "debug",
+      "description": "分析错误信息，定位根因并给出修复方案",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "代码",
+        "调试",
+        "dev",
+        "dev"
+      ],
+      "category": "dev",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T04:08:05Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/debug.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/debug.yaml"
+    },
+    {
+      "name": "docstring",
+      "description": "为函数、类或模块生成规范的文档注释",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "代码",
+        "文档",
+        "dev",
+        "dev"
+      ],
+      "category": "dev",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T04:08:39Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/docstring.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/docstring.yaml"
+    },
+    {
+      "name": "generate-test",
+      "description": "为代码生成完整的单元测试，覆盖边界情况",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "代码",
+        "测试",
+        "dev",
+        "dev"
+      ],
+      "category": "dev",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T04:09:06Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/generate-test.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/generate-test.yaml"
+    },
+    {
+      "name": "sql-gen",
+      "description": "根据自然语言需求生成高效的 SQL 查询语句",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "数据库",
+        "SQL",
+        "dev",
+        "dev"
+      ],
+      "category": "dev",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T04:04:10Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/sql-gen.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/sql-gen.yaml"
+    },
+    {
+      "name": "outline",
+      "description": "根据主题或关键词生成结构清晰的文章大纲",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "写作",
+        "大纲",
+        "writing",
+        "writing"
+      ],
+      "category": "writing",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T04:01:47Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/outline.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/outline.yaml"
+    },
+    {
+      "name": "proofread",
+      "description": "校对文章，修正语法、拼写、标点和表达问题",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "写作",
+        "校对",
+        "writing",
+        "writing"
+      ],
+      "category": "writing",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:58:13Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/proofread.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/proofread.yaml"
+    },
+    {
+      "name": "rewrite",
+      "description": "改写文章，换角度或换风格，保持核心信息不变",
+      "version": "1.0.0",
+      "author": "onion-ai",
+      "tags": [
+        "写作",
+        "改写",
+        "writing",
+        "writing"
+      ],
+      "category": "writing",
+      "param_count": 3,
+      "stars": 0,
+      "updated_at": "2026-05-12T03:57:48Z",
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/rewrite.yaml",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/rewrite.yaml"
+    }
+  ]
+}

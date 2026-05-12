@@ -1,0 +1,32 @@
+name: docstring
+description: 为函数、类或模块生成规范的文档注释
+version: "1.0.0"
+author: onion-ai
+tags: [代码, 文档, dev]
+category: dev
+params:
+  - name: input 
+    description: 函数、类或模块代码 
+    required: true 
+    default: ""
+  - name: style 
+    description: 文档风格（Google/NumPy/reStructuredText/JSDoc） 
+    required: false 
+    default: "Google"
+  - name: lang 
+    description: 编程语言 
+    required: false 
+    default: "Python" 
+template: | 
+  请为以下{lang}代码生成{style}风格的文档注释（docstring）。
+  要求：
+    - 包含功能描述（一句话概述 + 详细说明）
+    - 所有参数（Args/Parameters）说明，含类型和含义
+    - 返回值（Returns）说明，含类型
+    - 异常（Raises/Throws）说明（如有）
+    
+  使用示例（Examples）
+  
+    {input}
+  
+  请直接输出添加了 docstring 的完整代码。

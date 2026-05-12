@@ -1,0 +1,44 @@
+name: CI - Validate Skills
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "skills/**"
+      - "scripts/**"
+
+jobs:
+  validate:
+    name: 校验技能文件格式
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate all skills (strict mode)
+        run: python scripts/validate.py --strict
+
+      - name: Dry-run build index
+        run: python scripts/build_index.py --output /tmp/index.json --pretty
+
+      - name: Check index is valid JSON
+        run: python -c "import json; json.load(open('/tmp/index.json'))"
+
+      - name: Show index summary
+        run: |
+          python -c "
+          import json
+          idx = json.load(open('/tmp/index.json'))
+          print(f'Total skills: {idx[\"total\"]}')
+          for sk in idx['skills']:
+              print(f'  - {sk[\"category\"]}/{sk[\"name\"]}')
+          "

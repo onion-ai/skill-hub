@@ -1,0 +1,32 @@
+name: debug
+description: 分析错误信息，定位根因并给出修复方案
+version: "1.0.0"
+author: onion-ai
+tags: [代码, 调试, dev]
+category: dev
+params:
+  - name: input 
+    description: 错误信息、堆栈跟踪或有问题的代码 
+    required: true 
+    default: 
+  - name: context 
+    description: 背景说明（运行环境、触发条件等） 
+    required: false 
+    default: "无"
+  - name: lang 
+    description: 编程语言 
+    required: false 
+    default: "Python" 
+template: |
+  请分析以下{lang}错误并给出完整修复方案：
+  
+  错误信息:{input}
+  
+  背景上下文:{context}
+
+  请提供：
+
+  根因分析 —— 错误的本质原因是什么
+  修复代码 —— 具体的修复方案（含代码示例）
+  验证方法 —— 如何确认修复有效
+  预防建议 —— 如何避免类似问题 

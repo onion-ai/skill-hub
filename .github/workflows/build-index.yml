@@ -1,0 +1,73 @@
+# ── build-index.yml ───────────────────────────────────────────
+# 每次 push main 分支时自动重建 index.json 并提交
+
+name: Build Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "skills/**"      # 只有技能文件变更才触发
+
+permissions:
+  contents: write        # 允许 Action 提交文件
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate skills
+        run: python scripts/validate.py
+
+      - name: Build index.json
+        run: python scripts/build_index.py --pretty
+
+      - name: Commit index.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git diff --cached --quiet || git commit -m "chore: rebuild index.json [skip ci]"
+          git push
+
+
+---
+# ── ci.yml ────────────────────────────────────────────────────
+# PR 时自动校验技能格式
+
+name: CI - Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - "skills/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate all skills
+        run: python scripts/validate.py --strict
+
+      - name: Dry-run build index
+        run: python scripts/build_index.py --output /tmp/index.json --pretty

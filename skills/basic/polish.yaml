@@ -1,0 +1,25 @@
+name: polish
+description: 润色和改进文本，使其更专业流畅
+version: "1.0.0"
+author: onion-ai
+tags: [写作, 润色, basic]
+category: basic
+params:
+  - name: input
+    description: 待润色文本
+    required: true
+    default: ""
+  - name: style
+    description: 润色风格（专业/学术/口语/商务）
+    required: false
+    default: "专业"
+  - name: goal
+    description: 润色目标
+    required: false
+    default: "流畅自然"
+template: |
+  请对以下文本进行{style}风格润色，使其更加{goal}，保持原意不变：
+
+  {input}
+
+  润色后请直接输出结果，无需解释修改原因。

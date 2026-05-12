@@ -1,0 +1,32 @@
+name: code-review
+description: 代码审查，发现潜在问题并给出改进建议
+version: "1.0.0"
+author: onion-ai
+tags: [代码, 审查, dev]
+category: dev
+params:
+  - name: input
+    description: 待审查代码
+    required: true
+    default: ""
+  - name: lang
+    description: 编程语言
+    required: false
+    default: "Python"
+  - name: style
+    description: 审查风格（严格/标准/宽松）
+    required: false
+    default: "标准"
+template: |
+  请对以下{lang}代码进行{style}审查，重点关注：
+
+  1. 🐛 潜在 Bug 和逻辑错误
+  2. 🔒 安全漏洞（注入、越界、未处理异常等）
+  3. ⚡ 性能问题和优化空间
+  4. 📖 代码可读性和命名规范
+  5. 🏗️  架构设计和最佳实践
+
+  ```{lang}
+    {input}
+  请按以上分类逐项给出具体建议，并提供改进后的代码示例。
+  ```

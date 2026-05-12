@@ -1,0 +1,28 @@
+name: explain
+description: 用通俗易懂的语言解释代码、概念或术语
+version: "1.0.0"
+author: onion-ai
+tags: [教学, 解释, basic]
+category: basic
+params:
+  - name: input
+    description: 待解释的内容（代码/概念/术语）
+    required: true
+    default: ""
+  - name: level
+    description: 解释难度（小白/初级/中级/专家）
+    required: false
+    default: "通俗易懂"
+  - name: extra_req
+    description: 额外要求
+    required: false
+    default: "配合实际例子说明"
+template: |
+  请用{level}的语言解释以下内容，{extra_req}：
+
+  {input}
+examples:
+  - params:
+      input: "什么是递归？"
+      level: "小白"
+      extra_req: "用生活中的例子类比"

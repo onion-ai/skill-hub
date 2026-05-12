@@ -1,0 +1,29 @@
+name: outline
+description: 根据主题或关键词生成结构清晰的文章大纲
+version: "1.0.0"
+author: onion-ai
+tags: [写作, 大纲, writing]
+category: writing
+params:
+  - name: input
+    description: 文章主题、标题或关键词
+    required: true
+    default: ""
+  - name: depth
+    description: 大纲层级深度（2级/3级/4级）
+    required: false
+    default: "3级"
+  - name: style
+    description: 文章类型（技术博客/学术论文/产品文档/新闻报道）
+    required: false
+    default: "技术博客"
+template: |
+  请为以下主题生成{depth}{style}文章大纲：
+
+  主题：{input}
+
+  要求：
+  - 结构清晰，逻辑连贯
+  - 每个章节标题简洁有力
+  - 包含引言和结论部分
+  - 标注每节的核心内容要点（1-2句话）

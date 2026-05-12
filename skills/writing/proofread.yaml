@@ -1,0 +1,33 @@
+name: proofread
+description: 校对文章，修正语法、拼写、标点和表达问题
+version: "1.0.0"
+author: onion-ai
+tags: [写作, 校对, writing]
+category: writing
+params:
+  - name: input
+    description: 待校对的文章或段落
+    required: true
+    default: ""
+  - name: lang
+    description: 文章语言（中文/英文/双语）
+    required: false
+    default: "中文"
+  - name: level
+    description: 校对级别（基础/标准/严格）
+    required: false
+    default: "标准"
+template: |
+  请对以下{lang}文章进行{level}级别校对，修正：
+
+  - 语法错误和病句
+  - 拼写和标点错误
+  - 不通顺或歧义的表达
+  - 用词不当或重复啰嗦
+
+  原文：
+  {input}
+
+  请输出：
+  1. **修正后的全文**
+  2. **修改说明**（列出主要修改项及原因）
