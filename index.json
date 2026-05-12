@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-05-12T04:09:30Z",
-  "total": 15,
+  "updated_at": "2026-05-12T07:04:08Z",
+  "total": 20,
   "skills": [
     {
       "name": "explain",
@@ -9,15 +9,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "教学",
-        "解释",
         "basic",
-        "basic"
+        "解释",
+        "教学"
       ],
       "category": "basic",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:51:11Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/explain.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/explain.yaml"
     },
@@ -27,15 +27,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "写作",
-        "润色",
         "basic",
-        "basic"
+        "写作",
+        "润色"
       ],
       "category": "basic",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:51:27Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/polish.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/polish.yaml"
     },
@@ -45,15 +45,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "文本",
         "摘要",
         "basic",
-        "basic"
+        "文本"
       ],
       "category": "basic",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:50:57Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/summarize.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/summarize.yaml"
     },
@@ -63,15 +63,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "语言",
         "翻译",
         "basic",
-        "basic"
+        "语言"
       ],
       "category": "basic",
+      "fmt": "yaml",
       "param_count": 2,
       "stars": 0,
-      "updated_at": "2026-05-12T03:43:21Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/translate.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/translate.yaml"
     },
@@ -81,15 +81,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "数据",
-        "图表",
         "data",
-        "data"
+        "数据",
+        "图表"
       ],
       "category": "data",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:58:45Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/chart-desc.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/chart-desc.yaml"
     },
@@ -99,15 +99,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "数据",
         "分析",
         "data",
-        "data"
+        "数据"
       ],
       "category": "data",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:58:29Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/data-analysis.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/data-analysis.yaml"
     },
@@ -117,15 +117,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
         "审查",
         "dev",
-        "dev"
+        "代码"
       ],
       "category": "dev",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:52:58Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/code-review.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/code-review.yaml"
     },
@@ -135,15 +135,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
         "git",
         "dev",
-        "dev"
+        "代码"
       ],
       "category": "dev",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:07:50Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/commit-msg.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/commit-msg.yaml"
     },
@@ -153,15 +153,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
         "调试",
         "dev",
-        "dev"
+        "代码"
       ],
       "category": "dev",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:08:05Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/debug.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/debug.yaml"
     },
@@ -171,15 +171,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
         "文档",
         "dev",
-        "dev"
+        "代码"
       ],
       "category": "dev",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:08:39Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/docstring.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/docstring.yaml"
     },
@@ -189,15 +189,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
         "测试",
         "dev",
-        "dev"
+        "代码"
       ],
       "category": "dev",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:09:06Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/generate-test.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/generate-test.yaml"
     },
@@ -207,17 +207,125 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "数据库",
-        "SQL",
         "dev",
-        "dev"
+        "SQL",
+        "数据库"
       ],
       "category": "dev",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:04:10Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/sql-gen.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/sql-gen.yaml"
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "使用代码生成算法艺术、生成艺术和计算美学作品。当用户想创建 基于规则的视觉艺术、探索数学美学、生成程序化图案或创作计算艺术时使用。",
+      "version": "1.0.0",
+      "author": "anthropic",
+      "tags": [
+        "anthropic",
+        "creative",
+        "md"
+      ],
+      "category": "md",
+      "fmt": "skillmd",
+      "param_count": 0,
+      "stars": 0,
+      "updated_at": "2026-05-12T07:04:05Z",
+      "compatibility": null,
+      "has_scripts": false,
+      "has_references": false,
+      "has_assets": false,
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/algorithmic-art/SKILL.md",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/algorithmic-art/SKILL.md"
+    },
+    {
+      "name": "brand-writer",
+      "description": "按照品牌调性和风格指南撰写营销文案、产品描述、社交媒体内容。 当用户需要保持品牌一致性、撰写对外传播内容、或创作营销材料时使用。",
+      "version": "1.0.0",
+      "author": "anthropic",
+      "tags": [
+        "anthropic",
+        "writing",
+        "md"
+      ],
+      "category": "md",
+      "fmt": "skillmd",
+      "param_count": 0,
+      "stars": 0,
+      "updated_at": "2026-05-12T07:04:05Z",
+      "compatibility": null,
+      "has_scripts": false,
+      "has_references": false,
+      "has_assets": false,
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/brand-writer/SKILL.md",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/brand-writer/SKILL.md"
+    },
+    {
+      "name": "mcp-generator",
+      "description": "生成 MCP（Model Context Protocol）Server 代码。当用户需要创建 MCP 服务、将现有 API 封装为 MCP 工具、或为 Claude 添加新能力时使用。",
+      "version": "1.0.0",
+      "author": "anthropic",
+      "tags": [
+        "anthropic",
+        "md",
+        "dev"
+      ],
+      "category": "md",
+      "fmt": "skillmd",
+      "param_count": 0,
+      "stars": 0,
+      "updated_at": "2026-05-12T07:04:05Z",
+      "compatibility": null,
+      "has_scripts": false,
+      "has_references": false,
+      "has_assets": false,
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/mcp-generator/SKILL.md",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/mcp-generator/SKILL.md"
+    },
+    {
+      "name": "skill-creator",
+      "description": "创建新技能、改进现有技能、测量技能性能。当用户想从零创建技能、 编辑或优化现有技能、运行评估测试技能、进行性能基准测试，或优化技能描述以 提高触发准确性时使用。",
+      "version": "1.0.0",
+      "author": "anthropic",
+      "tags": [
+        "anthropic",
+        "md"
+      ],
+      "category": "md",
+      "fmt": "skillmd",
+      "param_count": 0,
+      "stars": 0,
+      "updated_at": "2026-05-12T07:04:05Z",
+      "compatibility": null,
+      "has_scripts": false,
+      "has_references": false,
+      "has_assets": false,
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/skill-creator/SKILL.md",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/skill-creator/SKILL.md"
+    },
+    {
+      "name": "web-tester",
+      "description": "自动化测试网页应用，包括功能测试、UI 测试、性能测试和可访问性 检查。当用户需要测试网站、验证页面功能、检查 UI 交互或生成测试报告时使用。",
+      "version": "1.0.0",
+      "author": "anthropic",
+      "tags": [
+        "anthropic",
+        "md"
+      ],
+      "category": "md",
+      "fmt": "skillmd",
+      "param_count": 0,
+      "stars": 0,
+      "updated_at": "2026-05-12T07:04:05Z",
+      "compatibility": "需要 Playwright 或 Puppeteer；Node.js 环境",
+      "has_scripts": false,
+      "has_references": false,
+      "has_assets": false,
+      "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/web-tester/SKILL.md",
+      "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/md/web-tester/SKILL.md"
     },
     {
       "name": "outline",
@@ -225,15 +333,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "写作",
         "大纲",
         "writing",
-        "writing"
+        "写作"
       ],
       "category": "writing",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:01:47Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/outline.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/outline.yaml"
     },
@@ -243,15 +351,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "写作",
         "校对",
         "writing",
-        "writing"
+        "写作"
       ],
       "category": "writing",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:58:13Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/proofread.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/proofread.yaml"
     },
@@ -261,15 +369,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "写作",
         "改写",
         "writing",
-        "writing"
+        "写作"
       ],
       "category": "writing",
+      "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:57:48Z",
+      "updated_at": "2026-05-12T07:04:05Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/rewrite.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/rewrite.yaml"
     }
