@@ -50,3 +50,4 @@ test('页面基础功能', async ({ page }) => {
   await expect(page).toHaveTitle(/{title}/);
   // 更多断言...
 });
+```
