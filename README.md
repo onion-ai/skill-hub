@@ -1,6 +1,7 @@
 # 🎯 Onion Skill Hub
 
-> Onion CLI 的社区技能市场 —— 可复用的 AI Prompt 技能库
+> Onion CLI 的社区技能市场 —— 可复用的 AI Prompt 技能库 
+> 注意： Onion cli 暂时没有开源，自有团队使用。因此onion 命令是无法使用的。
 
 [![CI](https://github.com/onion-ai/skill-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/onion-ai/skill-hub/actions)
 [![Skills](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/onion-ai/skill-hub/main/index.json&query=$.total&label=skills&color=green)](./index.json)
