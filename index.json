@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-05-12T07:34:41Z",
+  "updated_at": "2026-05-12T07:35:35Z",
   "total": 20,
   "skills": [
     {
@@ -17,7 +17,7 @@
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:51:11Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/explain.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/explain.yaml"
     },
@@ -27,15 +27,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "basic",
         "写作",
-        "润色"
+        "润色",
+        "basic"
       ],
       "category": "basic",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:51:27Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/polish.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/polish.yaml"
     },
@@ -45,15 +45,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
+        "摘要",
         "basic",
-        "文本",
-        "摘要"
+        "文本"
       ],
       "category": "basic",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:50:57Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/summarize.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/summarize.yaml"
     },
@@ -64,14 +64,14 @@
       "author": "onion-ai",
       "tags": [
         "basic",
-        "翻译",
-        "语言"
+        "语言",
+        "翻译"
       ],
       "category": "basic",
       "fmt": "yaml",
       "param_count": 2,
       "stars": 0,
-      "updated_at": "2026-05-12T03:43:21Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/translate.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/basic/translate.yaml"
     },
@@ -81,15 +81,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "数据",
+        "图表",
         "data",
-        "图表"
+        "数据"
       ],
       "category": "data",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:58:45Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/chart-desc.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/chart-desc.yaml"
     },
@@ -99,15 +99,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "数据",
         "data",
-        "分析"
+        "分析",
+        "数据"
       ],
       "category": "data",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:58:29Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/data-analysis.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/data/data-analysis.yaml"
     },
@@ -117,15 +117,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
+        "dev",
         "审查",
-        "代码",
-        "dev"
+        "代码"
       ],
       "category": "dev",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:52:58Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/code-review.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/code-review.yaml"
     },
@@ -135,15 +135,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
+        "git",
         "dev",
-        "git"
+        "代码"
       ],
       "category": "dev",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:07:50Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/commit-msg.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/commit-msg.yaml"
     },
@@ -153,15 +153,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
+        "调试",
         "dev",
-        "调试"
+        "代码"
       ],
       "category": "dev",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:08:05Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/debug.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/debug.yaml"
     },
@@ -171,15 +171,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
+        "dev",
         "文档",
-        "代码",
-        "dev"
+        "代码"
       ],
       "category": "dev",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:08:39Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/docstring.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/docstring.yaml"
     },
@@ -189,15 +189,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "代码",
+        "测试",
         "dev",
-        "测试"
+        "代码"
       ],
       "category": "dev",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:09:06Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/generate-test.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/generate-test.yaml"
     },
@@ -207,15 +207,15 @@
       "version": "1.0.0",
       "author": "onion-ai",
       "tags": [
-        "dev",
         "SQL",
-        "数据库"
+        "数据库",
+        "dev"
       ],
       "category": "dev",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:04:10Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/sql-gen.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/dev/sql-gen.yaml"
     },
@@ -226,14 +226,14 @@
       "author": "anthropic",
       "tags": [
         "anthropic",
-        "creative",
-        "md"
+        "md",
+        "creative"
       ],
       "category": "md",
       "fmt": "skillmd",
       "param_count": 0,
       "stars": 0,
-      "updated_at": "2026-05-12T06:55:56Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "compatibility": null,
       "has_scripts": false,
       "has_references": false,
@@ -248,14 +248,14 @@
       "author": "anthropic",
       "tags": [
         "anthropic",
-        "writing",
-        "md"
+        "md",
+        "writing"
       ],
       "category": "md",
       "fmt": "skillmd",
       "param_count": 0,
       "stars": 0,
-      "updated_at": "2026-05-12T06:57:00Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "compatibility": null,
       "has_scripts": false,
       "has_references": false,
@@ -270,14 +270,14 @@
       "author": "anthropic",
       "tags": [
         "anthropic",
-        "dev",
-        "md"
+        "md",
+        "dev"
       ],
       "category": "md",
       "fmt": "skillmd",
       "param_count": 0,
       "stars": 0,
-      "updated_at": "2026-05-12T06:56:39Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "compatibility": null,
       "has_scripts": false,
       "has_references": false,
@@ -298,7 +298,7 @@
       "fmt": "skillmd",
       "param_count": 0,
       "stars": 0,
-      "updated_at": "2026-05-12T06:55:28Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "compatibility": null,
       "has_scripts": false,
       "has_references": false,
@@ -319,7 +319,7 @@
       "fmt": "skillmd",
       "param_count": 0,
       "stars": 0,
-      "updated_at": "2026-05-12T07:29:03Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "compatibility": "需要 Playwright 或 Puppeteer；Node.js 环境",
       "has_scripts": false,
       "has_references": false,
@@ -341,7 +341,7 @@
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T04:01:47Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/outline.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/outline.yaml"
     },
@@ -359,7 +359,7 @@
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:58:13Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/proofread.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/proofread.yaml"
     },
@@ -370,14 +370,14 @@
       "author": "onion-ai",
       "tags": [
         "写作",
-        "改写",
-        "writing"
+        "writing",
+        "改写"
       ],
       "category": "writing",
       "fmt": "yaml",
       "param_count": 3,
       "stars": 0,
-      "updated_at": "2026-05-12T03:57:48Z",
+      "updated_at": "2026-05-12T07:35:34Z",
       "raw_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/rewrite.yaml",
       "download_url": "https://raw.githubusercontent.com/onion-ai/skill-hub/main/skills/writing/rewrite.yaml"
     }
